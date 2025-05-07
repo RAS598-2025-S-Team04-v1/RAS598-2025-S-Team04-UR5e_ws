@@ -1,7 +1,8 @@
 # RAS598-2025-S-Team04-UR5e_ws
-Workspace for UR5e and Gripper
+Workspace for UR5e and Gripper.
 The following repository contains the workspace for the UR5 and the Gripper to function based on published OptiTrack values
-Steps to setup the UR5e:
+
+## Steps to setup the UR5e:
 
 Step 1: Install the UR5e drivers:(Calibration)
 <pre><code># Update your package list and install dependencies
@@ -54,7 +55,10 @@ Step 3: Install required ROS2 driver/dependencies
 Step 4: UR5e launch codes:
   <pre><code>ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=192.168.1.103 launch_rviz:=false use_external_control:=true</code></pre>
 
-To setup the gripper:
+
+## To setup the gripper:
+
+
 Step 1: Install required packages
 
 <pre><code>cd ~/ros2_ws/src
